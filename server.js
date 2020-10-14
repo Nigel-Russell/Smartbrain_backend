@@ -5,10 +5,10 @@ const knex = require('knex');
 
 //My Server Controllers
 
-const register = require('./controllers/Register');
-const signin = require('./controllers/Signin');
-const profile = require('./controllers/Profile');
-const image = require('./controllers/Image');
+const register = require('./controllers/register');
+const signin = require('./controllers/signin');
+const profile = require('./controllers/profile');
+const image = require('./controllers/image');
 
 const db = knex({
     client: 'pg',
